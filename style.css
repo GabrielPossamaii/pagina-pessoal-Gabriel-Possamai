@@ -1,0 +1,107 @@
+:root {
+  --cor1: #6780a8;
+  --cor2: #8098be;
+  --cor3: #98b1d4;
+  --cor4: #b1c9e9;
+  --cor5: #c9e1ff;
+  --cor6: #3a5f6f;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: var(--cor3);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--cor1);
+  height: 140px;
+}
+
+nav {
+  background-color: var(--cor2);
+  height: 60px;
+}
+
+.menu {
+  position: relative;
+  top: 14px;
+  font-size: 25px;
+  margin-left: 20px;
+  padding: 10px;
+  color: var(--cor6);
+  text-decoration: 0;
+}
+
+.menu:hover {
+  color: var(--cor3);
+}
+
+.titulo {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  color: var(--cor3);
+}
+
+.principal {
+  min-height: 100vh;
+  /* margin: 20px; */
+}
+
+.cardsprincipal {
+  min-height: 100vh;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 200px;
+}
+
+.textorodape {
+  position: relative;
+  top: 80px;
+}
+
+.card {
+  display: inline-block;
+  margin: 40px;
+  text-align: center;
+  background-color: var(--cor2);
+  border-radius: 10px;
+  height: 300px;
+  width: 240px;
+}
+
+.imgcard {
+  position: relative;
+  top: 20px;
+  height: 200px;
+}
+
+.textocard {
+  position: relative;
+  top: 20px;
+  color: var(--cor6);
+}
+
+aside {
+  width: 400px;
+  height: 100vh;
+  float: right;
+  background-color: var(--cor4);
+}
+
+.imgtitulo {
+  position: absolute;
+  top: 15px;
+  left: 35%;
+  height: 100px;
+}
